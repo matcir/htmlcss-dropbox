@@ -56,3 +56,7 @@ img {
 .col-12 {
     width: calc(100% / 12 * 12);
 }
+
+:root {
+    --dropbox-bg-buttons: #0061fe;
+}
