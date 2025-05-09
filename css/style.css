@@ -186,11 +186,3 @@ h2 {
     min-height: 500px;
     padding: 2rem;
 }
-
-.selected {
-    border-radius: 50%;
-    border-color: 2px solid #0061fe;
-    height: 5px;
-    width: 5px;
-
-}
