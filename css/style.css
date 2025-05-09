@@ -111,11 +111,11 @@ ul {
     list-style: none;
 }
 
-span {
+.nav span {
     padding: 1rem;
 }
 
-nav li {
+.nav li {
     padding: 1rem;
 }
 
@@ -185,4 +185,12 @@ h2 {
     background-color: white;
     min-height: 500px;
     padding: 2rem;
+}
+
+.section_2 i {
+    padding: 5px;
+}
+
+.plans {
+    padding: 5rem 0;
 }
