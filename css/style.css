@@ -11,52 +11,100 @@ img {
 
 .col-1 {
     width: calc(100% / 12 * 1);
+    padding: 1rem;
 }
 
 .col-2 {
     width: calc(100% / 12 * 2);
+    padding: 1rem;
 }
 
 .col-3 {
     width: calc(100% / 12 * 3);
+    padding: 1rem;
 }
 
 .col-4 {
     width: calc(100% / 12 * 4);
+    padding: 1rem;
 }
 
 .col-5 {
     width: calc(100% / 12 * 5);
+    padding: 1rem;
 }
 
 .col-6 {
     width: calc(100% / 12 * 6);
+    padding: 1rem;
 }
 
 .col-7 {
     width: calc(100% / 12 * 7);
+    padding: 1rem;
 }
 
 .col-8 {
     width: calc(100% / 12 * 8);
+    padding: 1rem;
 }
 
 .col-9 {
     width: calc(100% / 12 * 9);
+    padding: 1rem;
 }
 
 .col-10 {
     width: calc(100% / 12 * 10);
+    padding: 1rem;
 }
 
 .col-11 {
     width: calc(100% / 12 * 11);
+    padding: 1rem;
 }
 
 .col-12 {
     width: calc(100% / 12 * 12);
+    padding: 1rem;
 }
 
 :root {
     --dropbox-bg-buttons: #0061fe;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.class_header {
+    min-height: 70px;
+}
+
+.nav {
+    padding: 1rem;
+    min-height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    align-self: center;
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    padding: 1rem;
+}
+
+nav li {
+    padding: 1rem;
+}
+
+#register {
+    background-color: var(--dropbox-bg-buttons);
+    color: white;
 }
