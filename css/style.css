@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+.debug {
+    background-color: red;
 }
 
 .col-1 {
@@ -69,8 +77,15 @@ img {
     padding: 1rem;
 }
 
+.row {
+    flex-wrap: wrap;
+    margin: 1rem -1rem;
+    position: relative;
+}
+
 :root {
-    --dropbox-bg-buttons: #0061fe;
+    --dropbox-bg-actions: #0061fe;
+    --dropbox-jumbo-bg: #b4d0e6;
 }
 
 .d-flex {
@@ -105,6 +120,77 @@ nav li {
 }
 
 #register {
-    background-color: var(--dropbox-bg-buttons);
+    background-color: var(--dropbox-bg-actions);
     color: white;
+}
+
+.section_1 {
+    min-height: 700px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.jumbo {
+    min-height: 500px;
+    background-color: var(--dropbox-jumbo-bg);
+}
+
+.container_jumbo {
+    width: 900px;
+    max-width: 60%;
+    margin: auto;
+}
+
+.container_small {
+    width: 900px;
+    max-width: 50%;
+    margin: auto;
+}
+
+h1 {
+    text-align: start;
+    font-size: 3rem;
+    padding-top: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.blue_btn {
+    background-color: var(--dropbox-bg-actions);
+    color: white;
+    padding: 1rem;
+    margin: 2rem 0;
+    border: none;
+}
+
+.arrow_d {
+    font-size: 3rem;
+    color: black;
+    margin-top: 4rem;
+}
+
+#dropbox_img {
+    position: absolute;
+    width: 80%;
+    left: 40%;
+}
+
+.relative {
+    position: relative;
+}
+
+.section_2 {
+    background-color: white;
+    min-height: 500px;
+    padding: 2rem;
+}
+
+.selected {
+    border-radius: 50%;
+    border-color: 2px solid #0061fe;
+    height: 5px;
+    width: 5px;
+
 }
