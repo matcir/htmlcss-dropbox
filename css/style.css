@@ -87,6 +87,7 @@ img {
     --dropbox-bg-actions: #0061fe;
     --dropbox-jumbo-bg: #b4d0e6;
     --dropbox-plans-duration-color: rgb(148, 146, 146);
+    --dropbox-footer-bg-color: black;
 }
 
 .d-flex {
@@ -190,7 +191,7 @@ h2 {
 
 .section_3 {
     min-height: 500px;
-    margin: 50px 0;
+    margin: 10rem 0;
 }
 
 .section_2 i {
@@ -294,4 +295,33 @@ h2 {
     margin: 20px 0 0 10px;
     padding: 1rem;
     background-color: white;
+}
+
+.perks {
+    padding: 1rem 0;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.clients {
+    margin: 10rem 0;
+    width: 55%;
+}
+
+a {
+    color: blue;
+}
+
+.discover {
+    padding: 3rem 0 5rem 0;
+}
+
+.site_footer {
+    min-height: 500px;
+}
+
+.footer {
+    background-color: var(--dropbox-footer-bg-color);
 }
