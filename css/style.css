@@ -188,12 +188,21 @@ h2 {
     padding: 2rem;
 }
 
+.section_3 {
+    min-height: 500px;
+    margin: 50px 0;
+}
+
 .section_2 i {
     padding: 5px;
 }
 
 .plans {
     padding: 5rem 0;
+}
+
+.button_plans {
+    width: 90%;
 }
 
 .type_plan {
@@ -248,4 +257,41 @@ h2 {
 
 .description {
     padding: 2rem 1rem 1rem 1rem;
+}
+
+.right_side {
+    width: 40%;
+}
+
+.left_side {
+    width: 60%;
+}
+
+.col-12_button {
+    width: 90%
+}
+
+.partner_img {
+    width: 60%;
+}
+
+.contacts {
+    padding: 2rem;
+    width: 40%;
+}
+
+.contacts h3 {
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.find_partner {
+    padding: 1rem;
+    line-height: 20px;
+}
+
+.partner_btn {
+    margin: 20px 0 0 10px;
+    padding: 1rem;
+    background-color: white;
 }
