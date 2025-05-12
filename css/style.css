@@ -335,3 +335,13 @@ a {
 .type_plan {
     border-bottom: 1px solid black
 }
+
+.blue_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.partner_btn:hover {
+    background-color: black;
+    color: white;
+}
