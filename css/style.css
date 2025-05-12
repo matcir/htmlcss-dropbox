@@ -101,6 +101,11 @@ img {
     position: relative;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
 .nav {
     padding: 1rem;
     min-height: 70px;
