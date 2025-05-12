@@ -89,21 +89,27 @@ img {
     --dropbox-jumbo-bg: #b4d0e6;
     --dropbox-plans-duration-color: rgb(148, 146, 146);
     --dropbox-footer-bg-color: black;
+    --dropbox-footer-color: white;
 }
 
 .d-flex {
     display: flex;
 }
 
-.class_header {
+.site_header {
     min-height: 70px;
+    position: relative;
 }
 
 .nav {
     padding: 1rem;
     min-height: 70px;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
 }
 
 #logo {
@@ -137,7 +143,7 @@ ul {
     background-color: var(--dropbox-jumbo-bg);
 }
 
-.container_jumbo {
+.container_big {
     width: 900px;
     max-width: 60%;
     margin: auto;
@@ -218,6 +224,9 @@ h2 {
 
 .card_container {
     width: 90%;
+    margin: auto;
+    border: 1px solid #e8e8ea;
+    height: 100%;
 }
 
 .quality_plan {
@@ -247,6 +256,11 @@ h2 {
 
 .buy_now {
     padding: 2rem 1rem 2rem 1rem;
+}
+
+#hr_plans {
+    width: 60px;
+    color: #e8e8ea;
 }
 
 .plan_perks {
@@ -326,14 +340,11 @@ a {
 .site_footer {
     min-height: 500px;
     background-color: var(--dropbox-footer-bg-color);
-}
-
-.plan_border {
-    border: 1px solid black;
+    color: var(--dropbox-footer-color);
 }
 
 .type_plan {
-    border-bottom: 1px solid black
+    border-bottom: 1px solid #e8e8ea;
 }
 
 .blue_btn:hover {
@@ -344,4 +355,28 @@ a {
 .partner_btn:hover {
     background-color: black;
     color: white;
+}
+
+.footer {
+    padding: 3rem 0;
+}
+
+.footer_cardmain {
+    padding: 1rem 0;
+}
+
+.card_content {
+    li {
+        padding: 8px 0;
+        font-size: small;
+    }
+}
+
+#language {
+    color: #818a92;
+    margin-top: 2rem;
+}
+
+#footer_hr {
+    width: 100px
 }
